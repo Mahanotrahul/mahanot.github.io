@@ -11,7 +11,7 @@
 html,
 body {
 	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Cascadia Code', 'Josefin Sans', sans-serif;
 }
 
 h1,
@@ -406,7 +406,8 @@ ol {
 }
 
 .hero-text p {
-	font-size: 33px;
+	font-size: 18px;
+	font-family: Cascadia Code, Source Sans Pro;
 	line-height: 1.3;
 }
 

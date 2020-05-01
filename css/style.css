@@ -826,6 +826,7 @@ li{
 .home-four-style .main-right-area {
 	padding-top: 200px;
 	padding-left: 110px;
+	margin-top: -50px;
 }
 
 .home-three-style .resume-list li,
@@ -1328,6 +1329,7 @@ li{
 	.home-four-style .main-right-area {
 		padding-right: 30px;
 		padding-left: 30px;
+		margin-top: -50px;
 	}
 	.home-five-style .header-section,
 	.home-six-style .header-section {
@@ -1404,7 +1406,7 @@ li{
 	.home-four-style .main-right-area {
 		padding-right: 30px;
 		padding-left: 30px;
-		padding-top: -100px;
+		margin-top: -100px;
 	}
 	.home-five-style .header-section,
 	.home-six-style .header-section {
@@ -1443,6 +1445,7 @@ li{
 	.home-four-style .main-right-area {
 		padding-right: 15px;
 		padding-left: 15px;
+		margin-top:-100px;
 	}
 	.home-four-style .main-left-area {
 		padding-top: 250px;

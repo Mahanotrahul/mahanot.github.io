@@ -41,9 +41,7 @@ p {
 	line-height: 1.4;
 }
 
-img {
-	max-width: 100%;
-}
+
 
 input:focus,
 select:focus,
@@ -1239,11 +1237,17 @@ blockquote {
 	.home-two-style .social-section .social-link-warp:after {
 		display: none;
 	}
+	img {
+		max-width: 25%;
+	}
 }
 
 @media only screen and (max-width: 1600px) {
 	.hero-text h2 {
 		font-size: 120px;
+	}
+	img {
+		max-width: 28%;
 	}
 }
 
@@ -1255,6 +1259,9 @@ blockquote {
 	.home-six-style .header-section {
 		position: relative;
 		background: #009fff;
+	}
+	img {
+		max-width: 32%;
 	}
 }
 
@@ -1285,6 +1292,9 @@ blockquote {
 	}
 	.home-four-style .main-right-area {
 		padding-right: -110px;
+	}
+	img {
+		max-width: 32%;
 	}
 
 }
@@ -1318,6 +1328,9 @@ blockquote {
 	}
 	.home-four-style .main-right-area {
 		padding-right: 110px;
+	}
+	img {
+		max-width: 35%;
 	}
 }
 
@@ -1373,6 +1386,9 @@ blockquote {
 	}
 	.header-buttons {
 		display: hidden;
+	}
+	img {
+		max-width: 35%;
 	}
 }
 
@@ -1445,6 +1461,9 @@ blockquote {
 	.info-section .hero-info ul li span {
 		color: #9c9b9b;
 	}
+	img {
+		max-width: 38%;
+	}
 }
 
 /* small Mobile :320px. */
@@ -1478,5 +1497,8 @@ blockquote {
 	}
 	.home-four-style .main-left-area {
 		padding-top: 250px;
+	}
+	img {
+		max-width: 38%;
 	}
 }

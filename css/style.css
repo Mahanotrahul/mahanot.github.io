@@ -482,7 +482,7 @@ blockquote {
 .social-section .social-links a {
 	color: #484848;
 	font-size: 36px;
-	margin-right: 40px;
+	margin-right: 0px;
 }
 
 .social-section .social-link-warp {
@@ -844,6 +844,7 @@ blockquote {
 .home-four-style .main-right-area {
 	padding-top: 200px;
 	padding-left: 110px;
+	padding-right: 110px;
 }
 
 .home-three-style .resume-list li,
@@ -923,7 +924,7 @@ blockquote {
 .home-four-style .social-links {
 	text-align: center;
 	padding-bottom: 70px;
-	padding-top: 120px;
+	padding-top: 0px;
 }
 
 .home-three-style .social-links a,
@@ -1282,6 +1283,10 @@ blockquote {
 	.home-three-style .main-right-area {
 		padding-left: 100px;
 	}
+	.home-four-style .main-right-area {
+		padding-right: -110px;
+	}
+
 }
 
 /* Medium screen : 992px. */
@@ -1307,6 +1312,12 @@ blockquote {
 	}
 	.portfolio-item {
 		margin-bottom: 30px;
+	}
+	.header-buttons {
+		display: block;
+	}
+	.home-four-style .main-right-area {
+		padding-right: 110px;
 	}
 }
 
@@ -1359,6 +1370,9 @@ blockquote {
 	}
 	.hero-info ul li span {
 		display: block;
+	}
+	.header-buttons {
+		display: hidden;
 	}
 }
 
@@ -1445,7 +1459,7 @@ blockquote {
 		display: block;
 	}
 	.social-section .social-links a {
-		margin-right: 30px;
+		margin-right: 0px;
 	}
 	.resume-list h2 {
 		font-size: 50px;

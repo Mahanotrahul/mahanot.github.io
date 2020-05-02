@@ -53,11 +53,13 @@
 		<div class="loader"></div>
 	</div>
 
-	<header class="header">
+  <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light navbar-right">
         <div class="container-fluid">
 
-                <a href="https://mahanotrahul.github.io" style="color:inherit">Rahul Mahanot</a>
+                <a class="navbar-brand footer-brand" href="/">
+                Debashish Reang
+                </a>
 
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -71,48 +73,65 @@
                         <a class="nav-link" href="/blog/">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Resume/RAHUL MAHANOT_RESUME.pdf" target="_blank">Resume</a>
+                        <a class="nav-link" href="/circle/">Circle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/assets/docs/DebashishReang_March_2020.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
+
 	<div class="home-four-style">
+		<!-- Header section start -->
+		<header class="header-section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="site-logo">
+						        <p style="font-family: Poppins, Cascadia Code"><a href="https://mahanotrahul.github.io" style="color:inherit">Rahul Mahanot</a></p>
+						</div>
+					</div>
+					<div class="col-md-8 text-md-right header-buttons">
+						<a href="Resume/RAHUL MAHANOT_RESUME.pdf" class="site-btn" target="_blank">Resume</a>
+						<a href="blog/" class="site-btn">Blog</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Header section end -->
+
+		<div class="container-fluid p-0">
+			<div class="row m-0">
 
 
-		<div class="container-fluid">
-			<div class="row">
 
 
 
-
-
-				<div class="col-xl-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="col-xl-6 col-lg-7">
 					<div class="main-right-area">
 
             <!-- hero section -->
-
+						<section class="intro-section">
               <!-- Image -->
+							<figure class="hero-image">
+								<img src="img/Picture.png" alt="" width="310px" height="300px" style="border-radius:50%">
+							</figure>
 
 
-
-
-
+						</section>
 
             <!-- Resume section start -->
-						<section class="resume-section spad pt-0" style="margin-top:-150px;">
+						<section class="resume-section spad pt-0">
               <div class="hero-text">
-
 
 								<p style="font-family: Cascadia Code, Source Sans Pro; text-align:justify">
                   <small>
-                    <img src="img/Picture.png" alt=""  style="border-radius:50%; float:right; vertical-align: middle; max-width:38%; height: auto; object-fit: cover; margin: 0 0 1em 2em;">
                   Hello, I am Rahul Mahanot, a final year undergrad at Indian Institute of Technology Bhubaneswar.
-
-                  I grew up chasing chickens in Guwahati city in India, aspiring to be a pilot looking at the aeroplanes flying over me.
+                  I grew up chasing chickens in Guwahati city in India, aspiring to be a pilot looking at the aeroplanes flying over me.<br>
                   I aspire to be a computer scientist, a writer, a politician, comic artist and many more. But I do think I'll end up pursuing PhD in one of the branches of CS.
-
                   I spend my free time reading, writing, programming and travelling around exploring the wild and unkown places.
                   <br><br>
                   I'm an Electonics and Communication undergraduate student, a young developer, data-science enthusiast,
@@ -186,7 +205,7 @@
               </div>
               <!-- skill section end -->
               <div class="social-links" style="margin-top:-10px">
-                <a href="https://github.com/Mahanotrahul" style="margin-right:0px"><i class="fa fa-github"></i></a>
+                <a href="https://github.com/Mahanotrahul"><i class="fa fa-github"></i></a>
               </div>
             </section>
 

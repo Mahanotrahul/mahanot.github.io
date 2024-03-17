@@ -61,7 +61,7 @@ ol,
 li {
 	padding: 0;
 	margin: 0;
-	font-size:11px;
+	font-size:14px;
 	padding-bottom: 3px;
 	font-family: Cascadia Code, Source Sans Pro;
 	text-align: justify;
@@ -1228,16 +1228,36 @@ blockquote {
 	color: #fff;
 }
 
+.home-img {
+	border-radius:5%; 
+	height: 200px; 
+	float:right; 
+	vertical-align: middle; 
+	object-fit: cover; 
+	margin: 0 0 1em 10em;
+
+}
 
 /* ===========================
   Responsive
 ==============================*/
+@media only screen and (min-width: 1730px) {
+	.home-two-style .social-section .social-link-warp:after {
+		display: none;
+	}
+	.home-img {
+		max-width: 35%;
+		margin: 0 10em 1em 10em;
+	}
+}
+
 @media only screen and (max-width: 1730px) {
 	.home-two-style .social-section .social-link-warp:after {
 		display: none;
 	}
-	img {
+	.home-img {
 		max-width: 25%;
+		margin: 0 10em 1em 10em;
 	}
 }
 
@@ -1245,8 +1265,9 @@ blockquote {
 	.hero-text h2 {
 		font-size: 120px;
 	}
-	img {
+	.home-img {
 		max-width: 28%;
+		margin: 0 5em 1em 10em;
 	}
 }
 
@@ -1259,8 +1280,9 @@ blockquote {
 		position: relative;
 		background: #009fff;
 	}
-	img {
+	.home-img {
 		max-width: 32%;
+		margin: 0 5em 1em 10em;
 	}
 }
 
@@ -1292,8 +1314,9 @@ blockquote {
 	.home-four-style .main-right-area {
 		padding-right: -110px;
 	}
-	img {
+	.home-img {
 		max-width: 32%;
+		margin: 0 5em 1em 10em;
 	}
 
 }
@@ -1328,8 +1351,10 @@ blockquote {
 	.home-four-style .main-right-area {
 		padding-right: 110px;
 	}
-	img {
+	.home-img {
 		max-width: 35%;
+		margin: 0 0 1em 2em;
+
 	}
 }
 
@@ -1386,8 +1411,9 @@ blockquote {
 	.header-buttons {
 		display: hidden;
 	}
-	img {
+	.home-img {
 		max-width: 35%;
+		margin: 0 0 1em 2em;
 	}
 }
 
@@ -1460,8 +1486,9 @@ blockquote {
 	.info-section .hero-info ul li span {
 		color: #9c9b9b;
 	}
-	img {
+	.home-img {
 		max-width: 38%;
+		margin: 0 0 1em 2em;
 	}
 }
 
@@ -1497,7 +1524,8 @@ blockquote {
 	.home-four-style .main-left-area {
 		padding-top: 250px;
 	}
-	img {
+	.home-img {
 		max-width: 38%;
+		margin: 0 0 1em 2em;
 	}
 }

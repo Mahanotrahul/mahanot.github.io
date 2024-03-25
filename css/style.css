@@ -36,7 +36,7 @@ h3 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 22px;
 	color: #808181;
 	line-height: 1.4;
 }
@@ -61,7 +61,7 @@ ol,
 li {
 	padding: 0;
 	margin: 0;
-	font-size:14px;
+	font-size:18px;
 	padding-bottom: 3px;
 	font-family: Cascadia Code, Source Sans Pro;
 	text-align: justify;
@@ -425,7 +425,7 @@ blockquote {
 }
 
 .hero-text p {
-	font-size: 14px;
+	font-size: 18px;
 	font-family: Cascadia Code, Source Sans Pro;
 	line-height: 1.3;
 }

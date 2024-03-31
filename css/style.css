@@ -169,7 +169,7 @@ li {
 	font-size: 18px;
 	margin-right: 10px;
 	margin-left: 10px;
-	border-radius: 10%;
+	border-radius: 10px;
 	-webkit-transition: all, 0.3s;
 	-moz-transition: all, 0.3s;
 	-ms-transition: all, 0.3s;
@@ -179,6 +179,11 @@ li {
 .nav-link:hover {
 	color: #ffffff;
 	background-color: #8f1a1a;
+}
+.navbar-nav .nav-link {
+    padding-left: 7px;
+    display: inline-block;
+    padding-right: 7px;
 }
 
 blockquote {

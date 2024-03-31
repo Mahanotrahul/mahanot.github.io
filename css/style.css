@@ -157,11 +157,19 @@ li {
 	}
 }
 
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+	border-color: #0000001a;
+}
 .nav-link {
 	color: #000000de;
 	font-family: 'Cascadia Code', 'Josefin Sans', sans-serif;
 	font-size: 18px;
-	margin-right: 40px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10%;
 	-webkit-transition: all, 0.3s;
 	-moz-transition: all, 0.3s;
 	-ms-transition: all, 0.3s;
@@ -171,7 +179,6 @@ li {
 .nav-link:hover {
 	color: #ffffff;
 	background-color: #8f1a1a;
-	border-radius: 10%;
 }
 
 blockquote {
@@ -1264,12 +1271,15 @@ blockquote {
 		display: none;
 	}
 	.home-img {
-		max-width: 35%;
+		max-width: 100%;
 		margin: 0 0em 1em 10em;
 	}
 	.home-four-style .main-right-area {
 		padding-left: 25%;
 		padding-right: 25%;
+	}
+	.navbar-nav {
+		margin-right: 300px;
 	}
 }
 
@@ -1278,12 +1288,15 @@ blockquote {
 		display: none;
 	}
 	.home-img {
-		max-width: 25%;
+		max-width: 100%;
 		margin: 0 0em 1em 10em;
 	}
 	.home-four-style .main-right-area {
 		padding-left: 25%;
 		padding-right: 25%;
+	}
+	.navbar-nav {
+		margin-right: 300px;
 	}
 }
 
@@ -1292,8 +1305,11 @@ blockquote {
 		font-size: 120px;
 	}
 	.home-img {
-		max-width: 28%;
+		max-width: 100%;
 		margin: 0 0em 1em 10em;
+	}
+	.navbar-nav {
+		margin-right: 300px;
 	}
 }
 
@@ -1307,8 +1323,11 @@ blockquote {
 		background: #009fff;
 	}
 	.home-img {
-		max-width: 32%;
+		max-width: 100%;
 		margin: 0 0em 1em 10em;
+	}
+	.navbar-nav {
+		margin-right: 250px;
 	}
 }
 
@@ -1342,10 +1361,12 @@ blockquote {
 		padding-right: 25%;
 	}
 	.home-img {
-		max-width: 32%;
+		max-width: 100%;
 		margin: 0 0em 1em 10em;
 	}
-
+	.navbar-nav {
+		margin-right: 200px;
+	}
 }
 
 /* Medium screen : 992px. */
@@ -1380,8 +1401,11 @@ blockquote {
 		padding-right: 25%;
 	}
 	.home-img {
-		max-width: 35%;
+		max-width: 100%;
 		margin: 0 0 1em 5em;
+	}
+	.navbar-nav {
+		margin-right: 100px;
 	}
 }
 
@@ -1439,8 +1463,11 @@ blockquote {
 		display: hidden;
 	}
 	.home-img {
-		max-width: 35%;
+		max-width: 100%;
 		margin: 0 0 1em 2em;
+	}
+	.navbar-nav {
+		margin-right: 100px;
 	}
 }
 
@@ -1514,8 +1541,9 @@ blockquote {
 		color: #9c9b9b;
 	}
 	.home-img {
-		max-width: 38%;
+		max-width: 100%;
 		margin: 0 0 1em 2em;
+		height: 175px;
 	}
 	.nav-img {
 		margin: 0 0 1em 0em;
@@ -1555,10 +1583,17 @@ blockquote {
 		padding-top: 250px;
 	}
 	.home-img {
-		max-width: 38%;
-		margin: 0 0 1em 2em;
+		max-width: 100%;
+		margin: 0 0 10px 16px;
+		height: 150px;
 	}
 	.nav-img {
 		margin: 0 0 1em 0em;
+	}
+	.hero-text p {
+		font-size: 16px;
+	}
+	ul, ol, li {
+		font-size: 16px;
 	}
 }
